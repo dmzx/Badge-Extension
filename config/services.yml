@@ -1,0 +1,5 @@
+services:
+    dmzx.badge.listener:
+        class: dmzx\badge\event\listener
+        tags:
+            - { name: event.listener }
