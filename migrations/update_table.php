@@ -14,7 +14,7 @@ class update_table extends \phpbb\db\migration\migration
 	public function update_data()
 	{
 		return array(
-		 array('custom', array(array($this, 'install_bbcode_for_badge'))),
+			array('custom', array(array($this, 'install_bbcode_for_badge'))),
 		);
 	}
 
