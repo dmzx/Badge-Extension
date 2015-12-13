@@ -23,8 +23,8 @@ class update_table extends \phpbb\db\migration\migration
 		$bbcode_data = array(
 			'bagdge=' => array(
 				'bbcode_helpline'		=> '[badge]SUBJECT-STATUS-COLOR[/badge]',
-				'bbcode_match'			=> '[badge]{SIMPLETEXT1}-{SIMPLETEXT2}-{SIMPLETEXT3}[/badge]',
-				'bbcode_tpl'			=> '<img src="https://img.shields.io/badge/{SIMPLETEXT1}-{SIMPLETEXT2}-{SIMPLETEXT3}.svg" alt="" style="margin-bottom: -5px;" />',
+				'bbcode_match'			=> '[badge]{INTTEXT1}-{INTTEXT2}-{INTTEXT3}[/badge]',
+				'bbcode_tpl'			=> '<img src="https://img.shields.io/badge/{INTTEXT1}-{INTTEXT2}-{INTTEXT3}.svg" alt="" style="margin-bottom: -5px;" />',
 			),
 		);
 
