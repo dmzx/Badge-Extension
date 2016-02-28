@@ -3,7 +3,7 @@
 	"type": "phpbb-extension",
 	"description": "This extension will add a badge bbCode selection box in posting template.",
 	"homepage": "http://www.dmzx-web.net",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"time": "2015-12-13",
 	"keywords": ["phpbb", "extension", "Badge Extension"],
 	"license": "GPL-2.0",
